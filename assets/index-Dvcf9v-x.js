@@ -113108,7 +113108,7 @@ const b9 = { render: xTe },
           Oe("nav", ATe, [
             o[2] ||
               (o[2] = jre(
-                '<a href="https://glacier.io/" target="_blank" class="flex items-center gap-2 outline-none"><img src="' +
+                '<a href="https://deepglacierai.pro" target="_blank" class="flex items-center gap-2 outline-none"><img src="' +
                   uTe +
                   '" class="w-8 h-8 md:w-10 md:h-10" alt=""><span class="text-display text-sm md:text-xl">DeepGlacier Nodes</span><div class="flex rounded-full text-xs bg-[#57FCFF] text-black py-0.5 px-1.5"> Mainnet </div></a><div class="flex-1"></div>',
                 2

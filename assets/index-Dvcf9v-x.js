@@ -114190,7 +114190,7 @@ const b9 = { render: xTe },
   PIe = ["src"],
   OIe = { class: "flex flex-col gap-2" },
   MIe = {
-    href: "https://x.com/Glacier_Labs/status/1881217789601681766",
+    href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
     target: "_blank",
   },
   $Ie = { key: 0, class: "flex flex-col gap-3" },

@@ -116524,16 +116524,7 @@ const xNe = { key: 0, class: "text-sm text-red-500" },
                     },
                     [
                       or(
-                        " Once you purchase licenses, you need to delegate them to earn rewards. If operating nodes yourself, follow the "
-                      ),
-                      Oe(
-                        "a",
-                        {
-                          href: "https://docs.glacier.io/getting-started/glacier-nodes/run-mainnet-nodes",
-                          target: "_blank",
-                          class: "text-blue-550 hover:underline",
-                        },
-                        "Tutorial"
+                        " Once you purchase licenses, you need to delegate them to earn rewards. If operating nodes yourself, follow the Tutorial"
                       ),
                       or(". "),
                     ],

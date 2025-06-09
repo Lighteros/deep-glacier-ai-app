@@ -111874,7 +111874,7 @@ async function DSe() {
     },
     {
       inputs: [{ internalType: "address", name: "", type: "address" }],
-      name: "claimedDEEPGLC",
+      name: "claimedDEEP",
       outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
       stateMutability: "view",
       type: "function",
@@ -111960,7 +111960,7 @@ async function DSe() {
     },
     {
       inputs: [{ internalType: "address", name: "", type: "address" }],
-      name: "stakedDEEPGLC",
+      name: "stakedDEEP",
       outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
       stateMutability: "view",
       type: "function",
@@ -113374,11 +113374,11 @@ const b9 = { render: xTe },
               Oe("div", $Te, [
                 Oe("div", DTe, [
                   _[2] || (_[2] = Oe("div", null, "License Price", -1)),
-                  Oe("div", LTe, Ir(lt(vm)(lt(kn).price)) + " $DEEPGLC", 1),
+                  Oe("div", LTe, Ir(lt(vm)(lt(kn).price)) + " $DEEP", 1),
                 ]),
                 Oe("div", BTe, [
                   _[3] || (_[3] = Oe("div", null, "My Balance", -1)),
-                  Oe("div", UTe, Ir(lt(vm)(lt(kn).tokens)) + " $DEEPGLC", 1),
+                  Oe("div", UTe, Ir(lt(vm)(lt(kn).tokens)) + " $DEEP", 1),
                 ]),
                 Oe("div", FTe, [
                   _[4] || (_[4] = Oe("div", null, "License Amount", -1)),
@@ -113420,7 +113420,7 @@ const b9 = { render: xTe },
                 ]),
                 Oe("div", zTe, [
                   _[5] || (_[5] = Oe("div", null, "Total Cost", -1)),
-                  Oe("div", qTe, Ir(lt(vm)(o.value)) + " $DEEPGLC", 1),
+                  Oe("div", qTe, Ir(lt(vm)(o.value)) + " $DEEP", 1),
                 ]),
                 Oe("div", VTe, [
                   o.value > lt(kn).tokens
@@ -113431,7 +113431,7 @@ const b9 = { render: xTe },
                         {
                           default: fr(
                             () =>
-                              _[6] || (_[6] = [or("Insufficient $DEEPGLC Balance")])
+                              _[6] || (_[6] = [or("Insufficient $DEEP Balance")])
                           ),
                           _: 1,
                         }
@@ -113443,7 +113443,7 @@ const b9 = { render: xTe },
                         { key: 1, loading: s.value, onClick: m },
                         {
                           default: fr(
-                            () => _[7] || (_[7] = [or("Step 1: Approve $DEEPGLC")])
+                            () => _[7] || (_[7] = [or("Step 1: Approve $DEEP")])
                           ),
                           _: 1,
                         },
@@ -113915,7 +113915,7 @@ const b9 = { render: xTe },
                           Oe(
                             "p",
                             { class: "text-grotesk-normal text-white/60 mt-2" },
-                            " To empower our community to confidently participate in building the foundation of a sustainable, user-owned internet, DEEPGLC is introducing a pioneering mechanism — the Buyback Program. 100% Buyback with DEEPGLC for Node License: This option provides a buyback value equivalent to the price of the nodes in DEEPGLC at the time of purchase. The DEEPGLC tokens will be returned directly to the node license sellers. ",
+                            " To empower our community to confidently participate in building the foundation of a sustainable, user-owned internet, DEEP is introducing a pioneering mechanism — the Buyback Program. 100% Buyback with DEEP for Node License: This option provides a buyback value equivalent to the price of the nodes in DEEP at the time of purchase. The DEEP tokens will be returned directly to the node license sellers. ",
                             -1
                           ),
                           Oe(
@@ -113929,7 +113929,7 @@ const b9 = { render: xTe },
                             { class: "text-grotesk-normal text-white/60 mt-2" },
                             [
                               or(
-                                " We hope the nodes can keep running and operating Glacier’s network. If a user sells their node license without accumulating a full 6 months of runtime, a percentage of the DEEPGLC tokens penalty will be charged during the buyback process. "
+                                " We hope the nodes can keep running and operating Glacier’s network. If a user sells their node license without accumulating a full 6 months of runtime, a percentage of the DEEP tokens penalty will be charged during the buyback process. "
                               ),
                               Oe("ul", { class: "list-disc pl-5" }, [
                                 Oe(
@@ -114259,7 +114259,7 @@ const b9 = { render: xTe },
             [
               {
                 title: "My Balance",
-                text: "The available DEEPGLC balance can be used to purchase node licenses. (1 Node License = 1024 DEEPGLC)",
+                text: "The available DEEP balance can be used to purchase node licenses. (1 Node License = 1024 DEEP)",
               },
               {
                 title: "My Total Licenses",
@@ -114271,7 +114271,7 @@ const b9 = { render: xTe },
               },
               {
                 title: "Licenses Sold",
-                text: "The DEEPGLC you received from selling your licenses through our buyback option. You can click “Withdraw” to transfer the DEEPGLC to your balance.",
+                text: "The DEEP you received from selling your licenses through our buyback option. You can click “Withdraw” to transfer the DEEP to your balance.",
               },
               {
                 title: "Claim Rewards",
@@ -114381,14 +114381,14 @@ const b9 = { render: xTe },
                             (A[15] = Oe(
                               "div",
                               { class: "text-display text-base lg:text-xl" },
-                              "DEEPGLC",
+                              "DEEP",
                               -1
                             )),
                           Oe("div", null, [
                             Oe("a", MIe, [
                               bt(Ro, null, {
                                 default: fr(
-                                  () => A[14] || (A[14] = [or("Buy DEEPGLC")])
+                                  () => A[14] || (A[14] = [or("Buy DEEP")])
                                 ),
                                 _: 1,
                               }),
@@ -114459,7 +114459,7 @@ const b9 = { render: xTe },
                                 qt("span", jIe, Ir(lt(vm)(lt(kn).tokens)), 1))
                               : (ut(), qt("span", WIe, "*")),
                           ]),
-                          lt(Xr) ? (ut(), qt("div", HIe, " DEEPGLC ")) : ro("", !0),
+                          lt(Xr) ? (ut(), qt("div", HIe, " DEEP ")) : ro("", !0),
                         ]),
                       ]),
                       Oe("div", null, [
@@ -114549,7 +114549,7 @@ const b9 = { render: xTe },
                                 ))
                               : (ut(), qt("span", ike, "*")),
                           ]),
-                          lt(Xr) ? (ut(), qt("div", ske, " DEEPGLC ")) : ro("", !0),
+                          lt(Xr) ? (ut(), qt("div", ske, " DEEP ")) : ro("", !0),
                           lt(Xr)
                             ? (ut(),
                               ar(
@@ -114625,7 +114625,7 @@ const b9 = { render: xTe },
                             ? (ut(),
                               qt("div", uke, [
                                 Oe("span", dke, Ir(lt(vm)(lt(kn).earned)), 1),
-                                A[27] || (A[27] = Oe("span", null, "DEEPGLC", -1)),
+                                A[27] || (A[27] = Oe("span", null, "DEEP", -1)),
                               ]))
                             : (ut(), qt("div", fke, "*")),
                         ]),
